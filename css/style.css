@@ -1,20 +1,32 @@
+/*
+COLORS:
+
+#2c3531
+#116466
+#d9b08c
+#ffcb9a
+#d1e8e2
+*/
+
 * {
   margin: 0px;
   padding: 0px;
   border: 0px;
   font-family: 'Lato', sans-serif;
   font-size: 18px;
+  color: #d1e8e2;
 }
 
-header {
+header, footer {
   background-color: #116466;
-  height: 10vh;
+  height: 100px;
+  width: auto;
 }
 
 nav {
-  max-width: 50vw;
   width: auto;
-  padding: 0 20vw;
+  height: 100%;
+  padding: 10px;
   margin: 0 auto;
   position: fixed;
 }
@@ -30,37 +42,36 @@ a:hover {
 
 .navbar-nav {
   margin: auto;
-  padding: 1vh 2vh;
+  padding: 10px;
 }
 
 .nav-item {
-  min-width: 5vw;
+  min-width: 70px;
   width: auto;
-  height: 6vh;
-  margin: 0 1vw;
+  height: 60px;
+  margin: 0 10px;
   text-align: center;
-  line-height: 4vh;
+  line-height: 38px;
 }
 
 body {
   background-color: #2e3733;
-  color: #d1e8e2;
-  height: 100vh;
+  margin: 0 auto;
 }
 
 .main {
-  height: 80vh;
+  height: 85.2vh;
   margin: 0 auto;
-  padding: 0 20vw;
+  padding: 0 50px;
   overflow-y: scroll;
+  width: 720px;
 }
 
 .content {
-  max-width: 50vw;
-  width: auto;
-  height: 100%;
-  margin: auto;
-  padding: 3vh;
+  min-height: 25vh;
+  height: auto;
+  width: 720px;
+  margin: 25px auto;
 }
 
 #content-about {
@@ -68,16 +79,11 @@ body {
 }
 
 #content-projects {
-  
+
 }
 
 h6 {
   color: #d9b08c;
-}
-
-footer {
-  background-color: #116466;
-  height: 10vh;
 }
 
 /* On small screens, set height to 'auto' for sidenav and grid */
